@@ -2,75 +2,110 @@
 <html lang="en">
 
 <head>
-  <title>Train What You Know - Precise Pick-and-Place with Transporter Networks</title>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <style>
-    body {
-      font-family: "Lato", sans-serif
-    }
+    <title>Train What You Know - Precise Pick-and-Place with Transporter Networks</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+            font-family: "Lato", sans-serif
+        }
 
-    .mySlides {
-      display: none
-    }
-  </style>
+        .mySlides {
+            display: none
+        }
+    </style>
 </head>
 
 <body>
-  <div class="w3-content" style="max-width:2000px;margin-top:46px">
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
     <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
-      <h2 class="w3-wide"><b>Train What You Know</b></h2>
-      <h3 class="w3-opacity">Precise Pick-and-Place with Transporter Networks</h3>
-      <p class="w3-justify">Precise pick-and-place is essential in robotic applications. To this end, we define a novel
-        exact training method and an iterative inference method that improve pick-and-place precision with Transporter
-        Networks <a href="https://transporternets.github.io/">[Zeng et al. 2020]</a>. We conduct a large scale
-        experiment on 8 simulated tasks. A systematic
-        analysis shows, that the proposed modifications have a significant positive effect on model performance.
-        Considering picking and placing independently, our methods achieve up to 60% lower rotation and translation
-        errors than baselines. For the whole pick-and-place process we observe 50% lower rotation errors for most tasks
-        with slight improvements in terms of translation errors. Furthermore, we propose architectural changes that
-        retain model performance and reduce computational costs and time. We validate our methods with an interactive
-        teaching procedure on real hardware.</p>
+        <h2 class="w3-wide"><b>Train What You Know</b></h2>
+        <h3 class="w3-opacity">Precise Pick-and-Place with Transporter Networks</h3>
+        <p class="w3-justify">Precise pick-and-place is essential in robotic applications. To this end, we define an
+            exact training method and an iterative inference method that improve pick-and-place precision with
+            Transporter Networks <a href="https://transporternets.github.io/">[Zeng et al. 2020]</a>. We conduct a large
+            scale experiment on 8 simulated tasks. A systematic analysis shows, that the proposed modifications have a
+            significant positive effect on model performance. Considering picking and placing independently, our methods
+            achieve up to 60% lower rotation and translation errors than baselines. For the whole pick-and-place process
+            we observe 50% lower rotation errors for most tasks with slight improvements in terms of translation errors.
+            Furthermore, we propose architectural changes that retain model performance and reduce computational costs
+            and time. We validate our methods with an interactive teaching procedure on real hardware.</p>
     </div>
 
+
     <div class="w3-container w3-content w3-padding-32" style="max-width:800px">
-      <h2 class="w3-wide">Supplemental Video</h2>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/rCt9VL3YuBY ">
-      </iframe>
+        <h2 class="w3-wide">Paper</h2>
+        <p class="w3-justify">The paper is available on <a href="https://arxiv.org/abs/2302.09000">arXiv</a>.</p>
     </div>
     <div class="w3-container w3-content w3-padding-32" style="max-width:800px">
-      <h2 class="w3-wide">Interactive Teaching</h2>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/BL4b294EoF8">
-      </iframe>
+        <h2 class="w3-wide">Supplemental Video</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/rCt9VL3YuBY ">
+        </iframe>
     </div>
     <div class="w3-container w3-content w3-padding-32" style="max-width:800px">
-      <h2 class="w3-wide">Coming Soon</h2>
-      <ul>
-        <li>Code</li>
-        <li>Tasks & descriptions</li>
-        <li>Model selection, feature and parameter importance</li>
-      </ul> 
+        <h2 class="w3-wide">Interactive Teaching</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/BL4b294EoF8">
+        </iframe>
+    </div>
+    <div class="w3-container w3-content w3-padding-32" style="max-width:800px">
+        <h2 class="w3-wide">Supplemental Images</h2>
+        <h3 class="w3-wide">Table I: Attention errors</h3>
+        <div class="w3-row w3-padding-32">
+            <img src="images/attention_errors.png" alt="Attention errors"
+                 style="width:100%">
+        </div>
+        <h3 class="w3-wide">Table I: Transport errors</h3>
+        <div class="w3-row w3-padding-32">
+            <img src="images/transport_errors.png" alt="Transport errors"
+                 style="width:100%">
+        </div>
+        <h3 class="w3-wide">Table II: Task execution errors</h3>
+        <div class="w3-row w3-padding-32">
+            <img src="images/task_execution_error_1.png" alt="Task execution errors"
+                 style="width:100%">
+        </div>
+        <div class="w3-row w3-padding-32">
+            <img src="images/task_execution_error_2.png" alt="Task execution errors"
+                 style="width:100%">
+        </div>
+        <div class="w3-row w3-padding-32">
+            <img src="images/task_execution_error_3.png" alt="Task execution errors"
+                 style="width:100%">
+        </div>
+        <div class="w3-row w3-padding-32">
+            <img src="images/task_execution_error_4.png" alt="Task execution errors"
+                 style="width:100%">
+        </div>
+
+    </div>
+    <div class="w3-container w3-content w3-padding-32" style="max-width:800px">
+        <h2 class="w3-wide">Coming Soon</h2>
+        <ul>
+            <li>Code</li>
+            <li>Tasks & descriptions</li>
+            <li>Model selection, feature and parameter importance</li>
+        </ul>
     </div>
     <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
-      <h2 class="w3-wide">Contact</h2>
-      <div class="w3-row w3-padding-32">
-        <div class="w3-col m12 w3-large w3-margin-bottom">
-          <i class="fa fa-user" style="width:30px"></i> Gergely Sóti<br>
-          <i class="fa fa-envelope" style="width:30px"> </i> gergely.soti@h-ka.de<br>
-          <i class="fa fa-map-marker" style="width:30px"></i> Robotics and Autonomous Systems, Institute of Applied
-          Research, Karlsruhe University of Applied Sciences, 76133 Karlsruhe, Germany, US<br>
+        <h2 class="w3-wide">Contact</h2>
+        <div class="w3-row w3-padding-32">
+            <div class="w3-col m12 w3-large w3-margin-bottom">
+                <i class="fa fa-user" style="width:30px"></i> Gergely Sóti<br>
+                <i class="fa fa-envelope" style="width:30px"> </i> gergely.soti@h-ka.de<br>
+                <i class="fa fa-map-marker" style="width:30px"></i> Robotics and Autonomous Systems, Institute of
+                Applied
+                Research, Karlsruhe University of Applied Sciences, 76133 Karlsruhe, Germany<br>
+            </div>
         </div>
-      </div>
     </div>
 
-  </div>
-
-  <footer class="w3-container w3-padding-32 w3-center w3-opacity w3-light-grey w3-xlarge">
-    <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
-  </footer>
+    <footer class="w3-container w3-padding-32 w3-center w3-opacity w3-light-grey w3-xlarge">
+        <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a>
+        </p>
+    </footer>
 </body>
 
 </html>
